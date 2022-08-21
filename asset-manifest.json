@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/cabana/static/css/main.3725dec1.chunk.css",
+    "main.js": "/cabana/static/js/main.09c6f309.chunk.js",
+    "main.js.map": "/cabana/static/js/main.09c6f309.chunk.js.map",
+    "runtime-main.js": "/cabana/static/js/runtime-main.8bbb7936.js",
+    "runtime-main.js.map": "/cabana/static/js/runtime-main.8bbb7936.js.map",
+    "static/js/2.a2f3fb3d.chunk.js": "/cabana/static/js/2.a2f3fb3d.chunk.js",
+    "static/js/2.a2f3fb3d.chunk.js.map": "/cabana/static/js/2.a2f3fb3d.chunk.js.map",
+    "12dc4f509a04bc6c8735.worker.js": "/cabana/12dc4f509a04bc6c8735.worker.js",
+    "12dc4f509a04bc6c8735.worker.js.LICENSE.txt": "/cabana/12dc4f509a04bc6c8735.worker.js.LICENSE.txt",
+    "12dc4f509a04bc6c8735.worker.js.map": "/cabana/12dc4f509a04bc6c8735.worker.js.map",
+    "13e81a499e541c9b2ae9.worker.js": "/cabana/13e81a499e541c9b2ae9.worker.js",
+    "13e81a499e541c9b2ae9.worker.js.LICENSE.txt": "/cabana/13e81a499e541c9b2ae9.worker.js.LICENSE.txt",
+    "13e81a499e541c9b2ae9.worker.js.map": "/cabana/13e81a499e541c9b2ae9.worker.js.map",
+    "6104103bc5c97cb8539f.worker.js": "/cabana/6104103bc5c97cb8539f.worker.js",
+    "6104103bc5c97cb8539f.worker.js.LICENSE.txt": "/cabana/6104103bc5c97cb8539f.worker.js.LICENSE.txt",
+    "6104103bc5c97cb8539f.worker.js.map": "/cabana/6104103bc5c97cb8539f.worker.js.map",
+    "ed040febd1ce733cecf6.worker.js": "/cabana/ed040febd1ce733cecf6.worker.js",
+    "ed040febd1ce733cecf6.worker.js.LICENSE.txt": "/cabana/ed040febd1ce733cecf6.worker.js.LICENSE.txt",
+    "ed040febd1ce733cecf6.worker.js.map": "/cabana/ed040febd1ce733cecf6.worker.js.map",
+    "index.html": "/cabana/index.html",
+    "precache-manifest.cf250a2a71b5348c679325f08f1a64e1.js": "/cabana/precache-manifest.cf250a2a71b5348c679325f08f1a64e1.js",
+    "service-worker.js": "/cabana/service-worker.js",
+    "static/css/main.3725dec1.chunk.css.map": "/cabana/static/css/main.3725dec1.chunk.css.map",
+    "static/js/2.a2f3fb3d.chunk.js.LICENSE.txt": "/cabana/static/js/2.a2f3fb3d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/cabana/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/webusb-enable-experimental-features.png": "/cabana/static/media/webusb-enable-experimental-features.e5a08e76.png",
+    "static/media/webusb-enable-webusb.png": "/cabana/static/media/webusb-enable-webusb.aceef6a0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bbb7936.js",
+    "static/js/2.a2f3fb3d.chunk.js",
+    "static/css/main.3725dec1.chunk.css",
+    "static/js/main.09c6f309.chunk.js"
+  ]
+}
