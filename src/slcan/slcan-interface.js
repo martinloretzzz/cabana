@@ -2,19 +2,7 @@ import { parseCanMessage } from './slcan-parser';
 import { slcanConfigDialog } from "./slcan-config-dialog"
 
 // Slcan docs: https://www.lawicel.com/can232/can232.pdf
-// And canable firmware docs: https://github.com/normaldotcom/canable-fw
-
-// To use the defualt configuration(deviceCount: 1, baudrate: 115200, bitrate: 500kbit) no url params are needed.
-// The common automotive bitrate seams to be 500kbit, but I can't find good webpages to confirm this.
-
-// Use one can interface and an odrive(bitrate: 250kbit)
-// ?canBitRate=250kbit
-
-// Use two slcan interfaces for automotive(bitrate: 500kbit)
-// ?deviceCount=2
-
-// Use a slcan interface with specific baudrate can interface and an odrive(bitrate: 250kbit)
-// ?serialBaudRate=57600
+// CANable firmware docs: https://github.com/normaldotcom/canable-fw
 
 // TODO: implement message batching
 // TODO: test if extended frames are working return a big T as prefix?
