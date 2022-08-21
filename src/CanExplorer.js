@@ -3,7 +3,7 @@ import Moment from 'moment';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 import { createWriteStream } from 'streamsaver';
-import Panda from '@commaai/pandajs';
+import Panda from './slcan/slcan-interface';
 import CommaAuth, { storage as CommaAuthStorage, config as AuthConfig } from '@commaai/my-comma-auth';
 import { raw as RawDataApi, drives as DrivesApi } from '@commaai/comma-api';
 import { timeout, interval } from 'thyming';
@@ -930,8 +930,7 @@ export default class CanExplorer extends Component {
 
   showOnboarding() {
     if (!CommaAuth.isAuthenticated() && window.sessionStorage && window.location &&
-      window.location.pathname !== AuthConfig.AUTH_PATH)
-    {
+      window.location.pathname !== AuthConfig.AUTH_PATH) {
       window.sessionStorage.setItem('onboardingPath', window.location.href);
     }
     this.setState({ showOnboarding: true });
@@ -1259,7 +1258,7 @@ export default class CanExplorer extends Component {
         showOnboarding: false,
         showLoadDbc: true
       });
-    } catch (e) {}
+    } catch (e) { }
     this.setState({ attemptingPandaConnection: false });
     unlisten();
   }
@@ -1369,7 +1368,7 @@ export default class CanExplorer extends Component {
               routeStartTime={
                 route ? route.start_time : Moment()
               }
-              videoOffset={ (this.state.firstFrameTime && this.state.routeInitTime) ? this.state.firstFrameTime - this.state.routeInitTime : 0 }
+              videoOffset={(this.state.firstFrameTime && this.state.routeInitTime) ? this.state.firstFrameTime - this.state.routeInitTime : 0}
               partsCount={route ? route.proclog : 0}
               maxqcamera={route ? route.maxqcamera : 0}
             />
