@@ -2,7 +2,7 @@
   "name": "can-explorer",
   "version": "0.4.2",
   "private": true,
-  "homepage": "https://cabana.comma.ai/",
+  "homepage": "https://martinloretzzz.github.io/cabana/",
   "dependencies": {
     "@commaai/comma-api": "^2.3.2",
     "@commaai/hls.js": "^0.12.7",
@@ -54,6 +54,7 @@
     "dotenv": "2.0.0",
     "env-cmd": "^8.0.2",
     "expect-puppeteer": "^5.0.4",
+    "gh-pages": "^4.0.0",
     "http-proxy-middleware": "0.17.3",
     "jest-puppeteer": "^5.0.4",
     "json-loader": "0.5.4",
@@ -78,7 +79,8 @@
     "test-all": "yarn run test-ci && yarn run test-puppeteer",
     "test-puppeteer-build": "JEST_PUPPETEER_CONFIG=jest-puppeteer.build.config.js yarn run test-puppeteer",
     "sass": "node-sass src/index.scss -o src && node-sass -w src/index.scss -o src",
-    "deploy": "yarn run test-ci && npm run build && yarn run test-puppeteer-build && gh-pages -d build"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.{js,jsx}": [
