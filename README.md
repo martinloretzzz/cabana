@@ -1,8 +1,8 @@
-# Slcan Cabana
+
 
 <img src="https://cabana.comma.ai/img/cabana.jpg" width="640" height="267" />
 
-## Slcan
+# Slcan Cabana ([martinloretzzz.github.io/cabana/](martinloretzzz.github.io/cabana/))
 
 This is a fork of [cabana](https://cabana.comma.ai) supports slcan(also known as Lawicel protocol) devices instead of the comma panda.
 
